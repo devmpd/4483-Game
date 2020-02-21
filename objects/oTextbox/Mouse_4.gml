@@ -7,4 +7,9 @@ if(ds_list_size(textList) > 0){
 } else {
 	instance_destroy();
 	global.paused = false;
+	if(talkingToZara){
+		talkingToZara = false;
+		global.talkedToZara = true;
+		room_goto(room3);	
+	}
 }
