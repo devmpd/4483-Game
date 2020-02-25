@@ -5,3 +5,5 @@ walksp = 4;
 depth = -1;
 girlTalking = false;
 autowalk = false;
+form = 0;
+isTalking = false;

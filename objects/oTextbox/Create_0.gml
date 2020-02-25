@@ -5,3 +5,6 @@ talkingToZara = false;
 text = "";
 textList = 0;
 alarm[0] = 1;
+with(oPlayer){
+	isTalking = true;	
+}
