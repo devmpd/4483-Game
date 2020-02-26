@@ -1,4 +1,4 @@
-menuSelect = keyboard_check_pressed(ord("S")) - keyboard_check_pressed(ord("W"));
+/*menuSelect = keyboard_check_pressed(ord("S")) - keyboard_check_pressed(ord("W"));
 menuIndex = (menuIndex + menuSelect + menuLength) mod menuLength;
 
 //Disable load and options for demo
@@ -10,3 +10,4 @@ if(menuSelect > 0 && menuIndex = 1){
 
 menuPrev = menuIndex;
 
+*/

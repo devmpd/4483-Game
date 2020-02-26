@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oWell",
     "eventList": [
-        
+        {
+            "id": "6e2e8d61-f4ef-4fdb-9783-e6b234000730",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 82,
+            "eventtype": 9,
+            "m_owner": "bbdcd53b-5875-421f-9100-9b8d413a1d16"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

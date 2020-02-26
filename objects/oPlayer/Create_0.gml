@@ -7,3 +7,6 @@ girlTalking = false;
 autowalk = false;
 form = 0;
 isTalking = false;
+sprite_walking = sPlayerWalking;
+sprite_jumping = sPlayerJumping;
+sprite_standing = sPlayer;

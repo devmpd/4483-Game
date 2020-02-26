@@ -3,7 +3,7 @@ right = keyboard_check(ord("E"));
 jump = keyboard_check(vk_space);
 
 if(!global.paused){
-		switch(form){
+	switch(form){
 		//normal form
 		case 0:{
 			grv = 0.5;
@@ -28,8 +28,11 @@ if(!global.paused){
 		//rabbit
 		case 2:{
 			walksp = 6;
-			jumpsp = -20;
+			jumpsp = -12;
 			grv = 0.4;
+			sprite_walking = sRabbitWalking;
+			sprite_standing = sRabbitStanding;
+			sprite_jumping = sRabbitJumping;
 			break;
 		}
 		default: {
@@ -40,7 +43,6 @@ if(!global.paused){
 		}
 		
 	}
-	show_debug_message(form);
 	if mouse_check_button_pressed(mb_left){
 		global.paused = true;
 		tid = instance_create_depth(mouse_x, mouse_y, -20, oFormMenu);
@@ -78,8 +80,8 @@ if(!global.paused){
 	y = y + vsp;
 
 	//Animation
-	if(!place_meeting(x, y+1, oFloor)){
-		sprite_index = sPlayerJumping;
+	if(!place_meeting(x, y+1, oFloor) && form != 1){
+		sprite_index = sprite_jumping;
 		image_speed = 0;
 		if(sign(vsp) > 0){
 			image_index = 1;
@@ -89,9 +91,9 @@ if(!global.paused){
 	} else {
 		image_speed = 1;
 		if(hsp == 0){
-			sprite_index = sPlayer;	
+			sprite_index = sprite_standing;	
 		} else {
-			sprite_index = sPlayerWalking;
+			sprite_index = sprite_walking;
 		}
 	}
 	if(hsp != 0){
@@ -112,10 +114,10 @@ if(!global.paused){
 	}
 } else {
 	image_speed = 0;
-	sprite_index = sPlayer;
+	sprite_index = sprite_standing;
 }
 if(isTalking){
-	if(!place_meeting(x, y+1, oFloor)){
+	if(!place_meeting(x, y+1, oFloor) && form != 1){
 		x = x + hsp;
 		vsp = vsp + grv;
 		y = y + vsp;	

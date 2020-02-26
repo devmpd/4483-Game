@@ -1,4 +1,4 @@
-switch(menuIndex){
+/*switch(menuIndex){
 	case 0: {
 		room_goto(room1);
 		break;
@@ -7,4 +7,4 @@ switch(menuIndex){
 		game_end();
 		break;
 	}
-}
+}*/
