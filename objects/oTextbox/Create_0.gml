@@ -10,6 +10,7 @@ textList = 0;
 event = "";
 alarm[0] = 1;
 depth = -2;
+
 with(oPlayer){
 	isTalking = true;	
 }

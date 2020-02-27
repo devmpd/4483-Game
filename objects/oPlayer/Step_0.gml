@@ -100,7 +100,6 @@ if(!global.paused){
 		image_xscale = sign(hsp);	
 	}
 } else if (girlTalking && autowalk && !girlPosition && !global.talkedToGirl){
-
 	image_speed = 1;
 	sprite_index = sPlayerWalking;
 	if(x > girlLoc){
@@ -117,10 +116,17 @@ if(!global.paused){
 	sprite_index = sprite_standing;
 }
 if(isTalking){
-	if(!place_meeting(x, y+1, oFloor) && form != 1){
-		x = x + hsp;
-		vsp = vsp + grv;
-		y = y + vsp;	
-	}	
+	if(form != 2){
+		if(!place_meeting(x, y+1, oFloor) && form != 1){
+			x = x + hsp;
+			vsp = vsp + grv;
+			y = y + vsp;	
+		}	
+	} else {
+		if(!place_meeting(x, y+1, oFloor)){
+			vsp = vsp + grv;
+			y = y + vsp;
+		}
+	}
 	
 }
