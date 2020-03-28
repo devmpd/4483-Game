@@ -50,10 +50,6 @@ if(!global.paused){
 	
 	var move = right - left;
 	
-	if(global.initialWalk && move != 0){
-		alarm[0] = (room_speed * 0.5);
-		global.initialWalk = false;
-	}
 	hsp = move * walksp;
 	vsp = vsp + grv;
 
@@ -98,18 +94,6 @@ if(!global.paused){
 	}
 	if(hsp != 0){
 		image_xscale = sign(hsp);	
-	}
-} else if (girlTalking && autowalk && !girlPosition && !global.talkedToGirl){
-	image_speed = 1;
-	sprite_index = sPlayerWalking;
-	if(x > girlLoc){
-		x = x + ((walksp - 2) * -1);
-	} else if(x < girlLoc){
-		x = x + ((walksp -2) * 1);
-	} else {
-		girlPosition = true;	
-		sprite_index = sPlayer;
-		autowalk = false;
 	}
 } else {
 	image_speed = 0;
