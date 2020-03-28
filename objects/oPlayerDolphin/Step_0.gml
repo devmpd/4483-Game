@@ -35,6 +35,16 @@ if(!global.paused){
 			sprite_jumping = sRabbitJumping;
 			break;
 		}
+		//dolphin
+		case 6: {
+			walksp = 3;
+			jumpsp = -5;
+			grv = 0.01;
+			sprite_walking = sDolphinSwimming;
+			sprite_standing = sDolphinStill;
+			sprite_jumping = sDolphinJumping;
+			break;
+		}
 		default: {
 			grv = 0.5;
 			walksp = 4;
@@ -53,13 +63,13 @@ if(!global.paused){
 	hsp = move * walksp;
 	vsp = vsp + grv;
 
-	if(place_meeting(x, y+1, oFloor) && jump){
+	if(place_meeting(x, y+1, oFloorWater) && jump){
 		vsp = jumpsp;		
 	}
 
 	//Horizontal collision
-	if(place_meeting(x+hsp, y, oFloor)){
-		while(!place_meeting(x+sign(hsp), y, oFloor)){
+	if(place_meeting(x+hsp, y, oFloorWater)){
+		while(!place_meeting(x+sign(hsp), y, oFloorWater)){
 			x = x + sign(hsp);		
 		}
 		hsp = 0;	
@@ -67,8 +77,8 @@ if(!global.paused){
 	x = x + hsp;
 
 	//Vertical collision
-	if(place_meeting(x, y+vsp, oFloor)){
-		while(!place_meeting(x, y+sign(vsp), oFloor)){
+	if(place_meeting(x, y+vsp, oFloorWater)){
+		while(!place_meeting(x, y+sign(vsp), oFloorWater)){
 			y = y + sign(vsp);		
 		}
 		vsp = 0;	
@@ -76,7 +86,7 @@ if(!global.paused){
 	y = y + vsp;
 
 	//Animation
-	if(!place_meeting(x, y+1, oFloor) && form != 1){
+	if(!place_meeting(x, y+1, oFloorWater) && form != 1){
 		sprite_index = sprite_jumping;
 		image_speed = 0;
 		if(sign(vsp) > 0){
@@ -101,13 +111,13 @@ if(!global.paused){
 }
 if(isTalking){
 	if(form != 2){
-		if(!place_meeting(x, y+1, oFloor) && form != 1){
+		if(!place_meeting(x, y+1, oFloorWater) && form != 1){
 			x = x + hsp;
 			vsp = vsp + grv;
 			y = y + vsp;	
 		}	
 	} else {
-		if(!place_meeting(x, y+1, oFloor)){
+		if(!place_meeting(x, y+1, oFloorWater)){
 			vsp = vsp + grv;
 			y = y + vsp;
 		}

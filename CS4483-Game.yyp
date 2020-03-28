@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "c9a4dc09-cb01-46da-9684-950f16211795",
+            "Value": {
+                "id": "0f4ce03d-1b1f-486c-975d-ac1e1a29f072",
+                "resourcePath": "sprites\/sFloorWater\/sFloorWater.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c9e94f89-b256-40bb-a929-3a1ecaa659c6",
             "Value": {
                 "id": "e86099ac-8e22-464a-bbf5-dd9626f6bc18",
@@ -628,6 +636,14 @@
                 "id": "ae52c55c-444c-4821-99f9-7a97bb4be2d0",
                 "resourcePath": "sprites\/sDolphinSwimming\/sDolphinSwimming.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cb3b35ca-0d4e-4afb-adfe-0699aaf87fe0",
+            "Value": {
+                "id": "52c272d6-f04d-4128-b8d7-8701cf9fc940",
+                "resourcePath": "objects\/oWater2\/oWater2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -787,6 +803,14 @@
             "Value": {
                 "id": "816059ae-37c6-4654-a283-1eef5b08b04b",
                 "resourcePath": "objects\/oGirl\/oGirl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f71ab7c8-0d64-4786-b2e2-24428acb2e86",
+            "Value": {
+                "id": "ddbf3c13-f4a7-4e75-94d9-42d35b6aa68e",
+                "resourcePath": "objects\/oFloorWater\/oFloorWater.yy",
                 "resourceType": "GMObject"
             }
         },
