@@ -1,8 +1,8 @@
 {
-    "id": "b9495f7f-67d0-48fa-baf4-798f7aa3aa1c",
+    "id": "601cf31d-e288-4972-800c-b03f806bfe76",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oFloor",
+    "name": "oWater",
     "eventList": [
         
     ],
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "56e6e51e-acf8-41e5-8b9e-56e7d16e3d76",
+    "solid": false,
+    "spriteId": "11c7f404-a376-471e-86f9-530cbc07a814",
     "visible": true
 }

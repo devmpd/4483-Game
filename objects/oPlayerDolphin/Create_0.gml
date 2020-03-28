@@ -10,4 +10,3 @@ isTalking = false;
 sprite_walking = sPlayerWalking;
 sprite_jumping = sPlayerJumping;
 sprite_standing = sPlayer;
-global.paused = false;

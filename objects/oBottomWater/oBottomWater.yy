@@ -1,10 +1,19 @@
 {
-    "id": "b9495f7f-67d0-48fa-baf4-798f7aa3aa1c",
+    "id": "79edd7cb-ca7b-44d3-a570-a8a697ffb13d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oFloor",
+    "name": "oBottomWater",
     "eventList": [
-        
+        {
+            "id": "969e9321-80a5-4d9e-9975-aa27dd803b32",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "79edd7cb-ca7b-44d3-a570-a8a697ffb13d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -23,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "56e6e51e-acf8-41e5-8b9e-56e7d16e3d76",
-    "visible": true
+    "solid": false,
+    "spriteId": "73705720-1bbd-4baf-9b5f-461a263a2e08",
+    "visible": false
 }
