@@ -3,7 +3,7 @@
 
 
 if(mouse_check_button_released(mb_left)){
-	with(oPlayer){
+	with(global.currentPlayer){
 		if(other.formIndex != -1 && form != other.formIndex){
 			form = other.formIndex;
 			instance_create_depth(x, y, -2, oPoof);

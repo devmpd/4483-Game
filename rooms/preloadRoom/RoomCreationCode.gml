@@ -1,3 +1,4 @@
+global.currentPlayer = false;
 global.initialWalk = true;
 global.paused = false;
 global.camX = 0;
