@@ -35,6 +35,16 @@ if(!global.paused){
 			sprite_jumping = sRabbitJumping;
 			break;
 		}
+		//rhino
+		case 3:{
+			walksp = 2;
+			jumpsp = -12;
+			grv = 0.5;
+			sprite_walking = sRhino;
+			sprite_standing = sRhino;
+			sprite_jumping = sRhino;
+			break;
+		}
 		default: {
 			grv = 0.5;
 			walksp = 4;
