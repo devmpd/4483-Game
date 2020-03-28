@@ -78,6 +78,17 @@ if(!global.paused){
 		}
 		hsp = 0;	
 	}
+	
+	// if not in rhino form, dont let player pass through walls. 
+	if (form != 3) {
+		if(place_meeting(x+hsp, y, oRockWall)){
+			while(!place_meeting(x+sign(hsp), y, oRockWall)){
+				x = x + sign(hsp);		
+			}
+		hsp = 0;	
+		}
+	}
+	
 	x = x + hsp;
 
 	//Vertical collision
@@ -87,6 +98,7 @@ if(!global.paused){
 		}
 		vsp = 0;	
 	}
+	
 	y = y + vsp;
 
 	//Animation

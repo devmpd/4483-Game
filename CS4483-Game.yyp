@@ -583,6 +583,22 @@
             }
         },
         {
+            "Key": "c3bd3247-f056-4a0b-92be-b1534ab8a37d",
+            "Value": {
+                "id": "2e1d9c2e-83be-461a-a636-fd7dc03bdd91",
+                "resourcePath": "sprites\/sRockWall\/sRockWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c51fb15c-7b9e-4d9b-91c1-516359f57668",
+            "Value": {
+                "id": "e9333586-61d0-40bb-846f-b5efbf3006d0",
+                "resourcePath": "objects\/oRockWall\/oRockWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c804549b-c02a-43db-8633-d1993af996c8",
             "Value": {
                 "id": "7e105d25-130a-4970-80c7-d92389f6be16",
