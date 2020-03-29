@@ -80,6 +80,7 @@ if(!global.paused){
 	{
 		vsp = jumpsp;		
 	}
+
 	
 	if(place_meeting(x, y+vsp, oBottom))
 	{

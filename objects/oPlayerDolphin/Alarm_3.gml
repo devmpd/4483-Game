@@ -4,6 +4,8 @@
 if(!global.paused){
 	instance_create_depth(x, y, -2, oPoof);
 	form = 0;
-} else {
+} 
+
+else {
 	alarm[3] = room_speed * 2	
 }
