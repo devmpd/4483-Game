@@ -1,3 +1,4 @@
+follow = global.currentPlayer;
 global.camX = x;
 global.camY = y;
 global.halfViewWidth = camera_get_view_width(mainCamera) * 0.5;

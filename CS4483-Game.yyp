@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1631aa20-fddf-40ee-9ddf-ee57b018d744",
+            "Value": {
+                "id": "ac2e743b-1afc-4993-855f-5a743ae4fdb9",
+                "resourcePath": "sprites\/sBeachTiles\/sBeachTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "17b5d092-8847-47ce-ba97-3d5635b6c90b",
             "Value": {
                 "id": "f913a131-d9a4-4828-990c-56252f37ea74",
@@ -132,6 +140,14 @@
                 "id": "3f669cd2-e87b-4828-8598-0c36b305e0bd",
                 "resourcePath": "views\/1b6e1128-fedd-42e2-b8a9-8b39cee1a67b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "201a7909-48a2-4660-8cf6-5a7c83a1a641",
+            "Value": {
+                "id": "bbfb7663-54e9-4249-b2c5-3ae2e3231121",
+                "resourcePath": "sprites\/sBeachTiles2\/sBeachTiles2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -268,6 +284,14 @@
                 "id": "3e242bf2-9da6-4d05-ae78-b6bb57d0131c",
                 "resourcePath": "objects\/oHouse1\/oHouse1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4d6613e6-33bf-42a1-a74f-bbe5ec8dec9e",
+            "Value": {
+                "id": "938d6c38-3292-4ee2-9d33-79ad48c67714",
+                "resourcePath": "tilesets\/tileset1\/tileset1.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -628,6 +652,14 @@
                 "id": "de3792b2-d647-4ff6-8a0b-906578a4e352",
                 "resourcePath": "views\/bbfe5cb2-3255-4dd0-925f-787271947d51.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bebe9289-5a56-44c9-af2c-9ab6226d70a3",
+            "Value": {
+                "id": "83f34a24-f403-4657-9f78-7a37a4600290",
+                "resourcePath": "tilesets\/tileset2\/tileset2.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
