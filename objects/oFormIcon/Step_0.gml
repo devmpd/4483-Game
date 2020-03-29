@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if(form = -1){
- image_index = 3;
+ image_index = 4;
 } else {
 	image_index = form;
 }
