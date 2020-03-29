@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oFloorWater",
     "eventList": [
-        
+        {
+            "id": "0bc9bae0-3226-4378-b257-45f2101eaaed",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f71ab7c8-0d64-4786-b2e2-24428acb2e86"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -124,3 +124,12 @@ if(isTalking){
 	}
 	
 }
+
+
+if place_meeting(x, y+sign(vsp), oWater2)
+    {
+    while !place_meeting(x, y+sign(vsp), oWater2) {
+        y += sign(vsp);
+        }
+    room_goto(roomWater);
+    }
