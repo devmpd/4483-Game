@@ -100,10 +100,11 @@ if(!global.paused){
 	}
 	
 	if (form != 3) {
-		while(!place_meeting(x, y+sign(vsp), oFloor)){
-			y = y + sign(vsp);		
-		}
-		vsp = 0;	
+		if(place_meeting(x+hsp, y, oRockWall)){
+			while(!place_meeting(x+sign(hsp), y, oRockWall)){
+				x = x + sign(hsp);		
+			}
+		hsp = 0;	
 		}
 	}
 	
