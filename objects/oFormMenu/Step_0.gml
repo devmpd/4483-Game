@@ -7,7 +7,7 @@ if(mouse_check_button_released(mb_left)){
 		if(other.formIndex != -1 && form != other.formIndex){
 			form = other.formIndex;
 			instance_create_depth(x, y, -2, oPoof);
-			if(form != 0){
+			if(form != 0 || form != 6){
 				alarm[3] = room_speed * 3;
 			}
 		}

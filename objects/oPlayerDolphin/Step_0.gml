@@ -39,7 +39,7 @@ if(!global.paused){
 		case 6: {
 			walksp = 3;
 			jumpsp = -5;
-			grv = 0.01;
+			grv = 0.5;
 			sprite_walking = sDolphinSwimming;
 			sprite_standing = sDolphinStill;
 			sprite_jumping = sDolphinJumping;

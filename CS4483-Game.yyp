@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0c0dbce1-dc08-4935-90f0-e19991e96c01",
+            "Value": {
+                "id": "90cbe0de-70e0-4522-b95c-9d7158858470",
+                "resourcePath": "sprites\/sFormIcon\/sFormIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0efec2bc-ae1e-4b99-aad7-9fc807291984",
             "Value": {
                 "id": "0763c6aa-ad65-4d61-ae68-d0bc10930bd8",
@@ -447,6 +455,14 @@
             }
         },
         {
+            "Key": "7e6cc385-4ef2-4e95-ba58-483fe60c5fa0",
+            "Value": {
+                "id": "0ccf0264-4047-4264-b0b6-8e719dce13fa",
+                "resourcePath": "sprites\/sRock1\/sRock1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80c7253b-697f-4a61-b0aa-257aa4763d89",
             "Value": {
                 "id": "ab9c71e0-7b3f-460e-b108-527be759e6cc",
@@ -767,6 +783,14 @@
             }
         },
         {
+            "Key": "eb12c44e-48c5-4825-906f-d1ba4c554641",
+            "Value": {
+                "id": "fc1a4ac3-6367-4f8f-aff8-fc931b7748b8",
+                "resourcePath": "objects\/oRock1\/oRock1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "efe53cbd-845a-4f57-8be8-01615b532e69",
             "Value": {
                 "id": "974fca23-0890-4ed3-9f63-405acab61d01",
@@ -819,14 +843,6 @@
             "Value": {
                 "id": "e9338e0f-b668-466a-a250-a3659efccc57",
                 "resourcePath": "sprites\/sTextbox\/sTextbox.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "faf7e02d-149b-4a58-adaf-72da0dff9aec",
-            "Value": {
-                "id": "30f4cb6e-2396-4a06-8c73-a73217f73306",
-                "resourcePath": "sprites\/sFormIcon\/sFormIcon.yy",
                 "resourceType": "GMSprite"
             }
         },
