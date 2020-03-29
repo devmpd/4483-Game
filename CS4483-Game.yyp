@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "52cb2c52-32f1-49c9-be63-faaf8ff165fa",
+            "Value": {
+                "id": "ac9b7e22-d837-4f53-a065-e4dd6f1e1c03",
+                "resourcePath": "sprites\/sBackgroundDolphin2\/sBackgroundDolphin2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "53241de3-9aa4-4988-abcf-148c57a5734a",
             "Value": {
                 "id": "2c264d5d-e817-4ee6-909c-aebc95087af3",
@@ -511,6 +519,14 @@
             }
         },
         {
+            "Key": "7d920dcc-216f-4b4e-b502-7b47003cd85a",
+            "Value": {
+                "id": "3e8025b1-25ea-468b-b113-87e70f69812d",
+                "resourcePath": "sprites\/sBackgroundDolphin1\/sBackgroundDolphin1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7e6cc385-4ef2-4e95-ba58-483fe60c5fa0",
             "Value": {
                 "id": "0ccf0264-4047-4264-b0b6-8e719dce13fa",
@@ -563,6 +579,14 @@
             "Value": {
                 "id": "cb1ac675-a864-4bad-a78e-0c6243c0bf9c",
                 "resourcePath": "sprites\/sControls\/sControls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "925eb0e4-1da1-4356-8014-fe789313f6be",
+            "Value": {
+                "id": "c469a9ca-562b-42cb-886b-f20cca9f9136",
+                "resourcePath": "sprites\/sBackgroundDolphin3\/sBackgroundDolphin3.yy",
                 "resourceType": "GMSprite"
             }
         },
