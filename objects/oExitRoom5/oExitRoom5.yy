@@ -1,18 +1,18 @@
 {
-    "id": "c51fb15c-7b9e-4d9b-91c1-516359f57668",
+    "id": "2fd49fa1-3cdc-4828-99c2-30d5c24a6b8f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oRockWall",
+    "name": "oExitRoom5",
     "eventList": [
         {
-            "id": "339910e2-7ff2-4536-9c09-c931270fcac8",
+            "id": "861d051d-6f33-42fd-97c4-2c02e2fcc7b0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "ff895e75-efd9-4db1-805c-b11f25961657",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "c51fb15c-7b9e-4d9b-91c1-516359f57668"
+            "eventtype": 3,
+            "m_owner": "2fd49fa1-3cdc-4828-99c2-30d5c24a6b8f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c3bd3247-f056-4a0b-92be-b1534ab8a37d",
-    "visible": true
+    "spriteId": "afd91830-b0e1-4344-ad99-1c3dd052d3f1",
+    "visible": false
 }

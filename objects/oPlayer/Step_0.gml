@@ -99,6 +99,14 @@ if(!global.paused){
 		vsp = 0;	
 	}
 	
+	if (form != 3) {
+		while(!place_meeting(x, y+sign(vsp), oFloor)){
+			y = y + sign(vsp);		
+		}
+		vsp = 0;	
+		}
+	}
+	
 	y = y + vsp;
 
 	//Animation
