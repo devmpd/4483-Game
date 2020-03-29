@@ -43,8 +43,8 @@ if(!global.paused){
 		case 6: 
 		{
 			walksp = 3;
-			jumpsp = -4;
-			grv = 0;
+			jumpsp = -7;
+			grv = 0.5;
 			sprite_walking = sDolphinSwimming;
 			sprite_standing = sDolphinStill;
 			sprite_jumping = sDolphinJumping;
@@ -60,7 +60,7 @@ if(!global.paused){
 		
 	}
 	
-	//check to see if form menu clciked
+	//check to see if form menu clicked
 	if mouse_check_button_pressed(mb_left)
 	{
 		global.paused = true;
@@ -75,6 +75,21 @@ if(!global.paused){
 	//move vertically
 	vsp = vsp + grv;
 
+	//if in dolphin form, can jump anywhere
+	if(!(place_meeting(x, y+1, oFloorWater)) && jump && form == 6)
+	{
+		vsp = jumpsp;		
+	}
+	
+	if(place_meeting(x, y+vsp, oBottom))
+	{
+		room_goto(roomWater);
+	}
+	
+		if(place_meeting(x+hsp, y, oEndLevel))
+	{
+		room_goto(roomWater);
+	}
 	//if player clicks jump and at (x,y+1) touches oFloorWater, character will jump
 	if(place_meeting(x, y+1, oFloorWater) && jump)
 	{

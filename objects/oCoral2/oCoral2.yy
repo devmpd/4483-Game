@@ -1,19 +1,10 @@
 {
-    "id": "79edd7cb-ca7b-44d3-a570-a8a697ffb13d",
+    "id": "dfe4babb-677c-43b2-a16a-a47c8b74faac",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oBottomWater",
+    "name": "oCoral2",
     "eventList": [
-        {
-            "id": "969e9321-80a5-4d9e-9975-aa27dd803b32",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "79edd7cb-ca7b-44d3-a570-a8a697ffb13d"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "73705720-1bbd-4baf-9b5f-461a263a2e08",
-    "visible": false
+    "spriteId": "93fb4fc9-429b-4877-96de-a6d835507b57",
+    "visible": true
 }
