@@ -35,6 +35,16 @@ if(!global.paused){
 			sprite_jumping = sRabbitJumping;
 			break;
 		}
+		//elephant
+		case 5: {
+			walksp = 4;
+			jumpsp = 0;
+			grv = 0.5;
+			sprite_walking = sElephantWalking;
+			sprite_standing = sElephant;
+			sprite_jumping = sElephantSpraying;
+			break;
+		}
 		default: {
 			grv = 0.5;
 			walksp = 4;
@@ -98,6 +108,13 @@ if(!global.paused){
 	}
 	if(hsp != 0){
 		image_xscale = sign(hsp);	
+	}
+	
+	// Elephant Spray
+	if (jump && form == 5) {
+		sprite_index = sprite_jumping;
+		sprayX = 80 * sign(image_xscale);
+		instance_create_depth(x + sprayX, y, depth, oSplash);
 	}
 } else if (girlTalking && autowalk && !girlPosition && !global.talkedToGirl){
 	image_speed = 1;
