@@ -1,6 +1,8 @@
 /// @description Create main camera
 mainCamera = view_camera[0];
 follow = global.currentPlayer;
+global.camX = x;
+global.camY = y;
 
 halfViewWidth = camera_get_view_width(mainCamera) * 0.5;
 halfViewHeight = camera_get_view_height(mainCamera) * 0.5;

@@ -5,6 +5,7 @@ talkingToZara = false;
 tutorialIntro = false;
 tutorialOne = false;
 tutorialTwo = false;
+finalLevel = false;
 text = "";
 textList = 0;
 event = "";

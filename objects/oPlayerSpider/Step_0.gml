@@ -55,7 +55,7 @@ if(!global.paused){
 	}
 	if mouse_check_button_pressed(mb_left){
 		global.paused = true;
-		tid = instance_create_depth(mouse_x, mouse_y, -20, oFormMenu);
+		tid = instance_create_depth(global.camX, mouse_y, -20, oFormMenu);
 	}
 	
 	if(!slinging){

@@ -16,4 +16,4 @@ currentPos = global.levelSelectPos;
 x = levelPoints[currentPos, 0];
 y = levelPoints[currentPos, 1];
 
-levelRooms = ["Level1", "Level2", rSpiderLevel, "Level4", "Level5"]
+levelRooms = [rRhinoLevel, rSpiderLevel, elephantRoom, roomWater, rFinalLevel]

@@ -30,6 +30,9 @@ if(ds_list_size(textList) > 0){
 		tutorialTwo = false;
 		global.doneTutorialTwo = true;
 	}
+	if(finalLevel){
+		room_goto(room1);	
+	}
 	global.paused = false;
 	instance_destroy(oTextbox);
 }

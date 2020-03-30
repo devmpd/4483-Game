@@ -1,0 +1,10 @@
+hsp = 0;
+vsp = 0;
+grv = 0.5;
+walksp = 4;
+depth = -1;
+form = 0;
+isTalking = false;
+sprite_walking = sPlayerWalking;
+sprite_jumping = sPlayerJumping;
+sprite_standing = sPlayer;
